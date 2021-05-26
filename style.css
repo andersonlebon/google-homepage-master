@@ -1,0 +1,157 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100vh;
+  background: url("./Img/bag1.jpg");
+  background-size: cover;
+  /* width: 100vw; */
+}
+a:hover{
+  text-decoration: none;
+  color: white;
+}
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 30px;
+}
+
+.navbar img {
+  color: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.navbar .navbar-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar .navbar-links a {
+  padding: 10px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+
+.google-home-page-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+.searchbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 45px;
+  background-color: white;
+  border-radius: 50px;
+  width: 600px;
+  border: 1px solid rgba(128, 128, 128, 0.287);
+  border: 2px solid rgba(0, 0, 0, 0);
+
+}
+.searchbar input {
+  width: 95%;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  padding-left: 14px;
+  font-size: 16px;
+}
+
+.searchbar i {
+  font-size: 16px;
+  color: gray;
+  font-weight: 500;
+  padding: 0 20px;
+
+}
+.searchbar:hover {
+  box-shadow: 1px 3px 10px 3px#cecaca75;
+  border: 2px solid rgb(70, 69, 69);
+  transition: all 0.2s ease-in-out;
+}
+.google-img-icon {
+  padding-bottom: 20px;
+}
+
+.input-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.input-buttons input {
+  margin: 20px;
+  border: none;
+  height: 35px;
+  width: 150px;
+  border-radius: 5px;
+}
+.input-buttons input:hover {
+  box-shadow: 0 0 1px 1px#888888cc;
+}
+.lang {
+  padding: 10px;
+  text-decoration: none;
+  color: blue;
+}
+.lang:hover {
+  text-decoration: underline;
+}
+p {
+  font-size: 14px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+  position: fixed;
+  bottom: 4px;
+  right: 0;
+  left: 0;
+  background-color: #181717;
+  height: 50px;
+}
+footer a {
+  color: #81858a;
+  font-size: 15px;
+  text-decoration: none;
+  padding: 10px;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  /* footer {
+    display: none;
+  }
+  .google-home-page-wrapper img {
+    width: 90%;
+  }
+  .input-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+  .searchbar {
+    width: 90%;
+    height: 30px;
+  } */
+}
